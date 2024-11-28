@@ -90,8 +90,6 @@ export default function Home() {
   return (
     <div className="flex flex-col ">
       <div className="bg-hero bg-cover  bg-no-repeat bg-center h-[100vh] w-[100%]">
-       
-
         <div
           className="relative h-screen w-screen"
           style={{
@@ -103,8 +101,9 @@ export default function Home() {
           <div className="bg-black/60 h-full w-full justify-center">
             <div className="w-full h-full flex flex-col justify-center items-center text-center lg:space-y-5">
               <h1 className="text-white text-4xl font-semibold lg:w-[40%] xl:w-[30%]">
-                Let's change the world with humanity
+                Let&apos;s change the world with humanity
               </h1>
+
               <p className="text-white/50 lg:w-[44%] xl:w-[35%]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 minim veniam, quis nostrud{" "}
