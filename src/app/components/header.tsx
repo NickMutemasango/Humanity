@@ -91,11 +91,11 @@ const Navbar = () => {
         <div
           className={`space-x-3 font-normal text-[#4D4D4D] lg:text-white  md:items-center hidden md:flex`}
         >
-          <Link href="/SignUp">Home</Link>
-          <Link href="/About">About</Link>
-          <Link href="/Vans">Causes</Link>
-          <Link href="/Vans">Pages</Link>
-          <Link href="/Vans">Contact</Link>
+          <Link href="#">Home</Link>
+          <Link href="#">About</Link>
+          <Link href="#">Causes</Link>
+          <Link href="#">Pages</Link>
+          <Link href="#">Contact</Link>
           <div className="flex justify-center cursor-pointer items-center gap-2 rounded-md border-orange border px-2 py-1">
               Donate Now{" "}
               <div className="bg-transparent h-5 rounded-full w-5 flex justify-center items-center">
@@ -109,19 +109,19 @@ const Navbar = () => {
         {/* Mobile Menu */}
         {isOpen && (
           <div className="absolute top-[10vh] left-0 w-full bg-[#FFF7ED] flex flex-col items-center  space-y-4 py-4 md:hidden z-10 shadow-lg">
-            <Link href="/SignUp" onClick={toggleMenu}>
+            <Link href="#" onClick={toggleMenu}>
               Home
             </Link>
-            <Link href="/About" onClick={toggleMenu}>
+            <Link href="#" onClick={toggleMenu}>
               About
             </Link>
-            <Link href="/Vans" onClick={toggleMenu}>
+            <Link href="#" onClick={toggleMenu}>
               Causes
             </Link>
-            <Link href="/Vans" onClick={toggleMenu}>
+            <Link href="#" onClick={toggleMenu}>
               Pages
             </Link>
-            <Link href="/Vans" onClick={toggleMenu}>
+            <Link href="#" onClick={toggleMenu}>
               Contact
             </Link>
             <div className="flex justify-center cursor-pointer rounded-md items-center gap-2 border-orange border px-2 py-1">
