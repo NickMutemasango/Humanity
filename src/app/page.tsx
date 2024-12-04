@@ -39,14 +39,16 @@ export default function Home() {
   const smallBackgrounds = [Smallbg1, Smallbg2, Smallbg3, Smallbg4, Smallbg5];
   const bigBackgrounds = [Bigbg1, Bigbg2, Bigbg3, Bigbg4];
 
-  const [selected, setSelected] = useState(null);
+  const [selected, setSelected] = useState<number | null>(null);
+
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isSmallScreen, setIsSmallScreen] = useState(false);
 
-  const handleClick = (index:any) => {
+  const handleClick = (index:number) => {
     setSelected(index);
   };
+  
 
   // Detect screen size and set the default background
   useEffect(() => {
