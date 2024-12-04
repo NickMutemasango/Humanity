@@ -44,7 +44,7 @@ export default function Home() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isSmallScreen, setIsSmallScreen] = useState(false);
 
-  const handleClick = (index) => {
+  const handleClick = (index:any) => {
     setSelected(index);
   };
 
